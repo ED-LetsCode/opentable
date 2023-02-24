@@ -1,6 +1,28 @@
+# Getting Started
+
+## Clone Project
+
+```bash
+# Clone project
+git clone https://github.com/ED-LetsCode/opentable.git
+```
+
+## Setup PostgreSQL Database
+
+```bash
+# Get Postgres Docker Container
+docker pull postgres
+# then run
+docker run --name opentable -d -p 5432:5432 -e POSTGRES_PASSWORD=opentable postgres
+```
+
+DB Login Data:
+Username: postgres
+Password: opentable
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Run Project
 
 First, run the development server:
 
