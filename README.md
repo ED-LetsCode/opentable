@@ -17,8 +17,21 @@ docker run --name opentable -d -p 5432:5432 -e POSTGRES_PASSWORD=opentable postg
 ```
 
 DB Login Data:
-Username: postgres
-Password: opentable
+
+- Username: postgres
+- Password: opentable
+
+## Push Prisma DB Schema
+
+```
+npx prisma db push
+```
+
+## Feed database with data
+
+Open this link: http://localhost:3000/api/seed
+
+#
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
