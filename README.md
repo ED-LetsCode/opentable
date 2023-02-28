@@ -33,6 +33,12 @@ DB Login Data:
 npx prisma db push
 ```
 
+## Start Project
+
+```
+npm run dev
+```
+
 ## Feed database with data
 
 Open this link: http://localhost:3000/api/seed
