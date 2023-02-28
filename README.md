@@ -7,6 +7,12 @@
 git clone https://github.com/ED-LetsCode/opentable.git
 ```
 
+## Install all dependencies
+
+```
+npm install
+```
+
 ## Setup PostgreSQL Database
 
 ```bash
