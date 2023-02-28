@@ -7,6 +7,7 @@ import RestaurantNavbar from "./RestaurantNavbar";
 import Reviews from "./Reviews";
 import Title from "./Title";
 import Menu from "./Menu";
+import ReviewCard from "./ReviewCard";
 
 export {
   Description,
@@ -18,4 +19,5 @@ export {
   Reviews,
   Title,
   Menu,
+  ReviewCard,
 };
