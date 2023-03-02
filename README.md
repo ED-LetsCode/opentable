@@ -1,3 +1,5 @@
+# Currently in development | Not finished
+
 # Getting Started
 
 ## Clone Project
