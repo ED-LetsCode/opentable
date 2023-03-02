@@ -29,6 +29,8 @@ DB Login Data:
 - Username: postgres
 - Password: opentable
 
+DB Url is in the .env file
+
 ## Push Prisma DB Schema
 
 ```
