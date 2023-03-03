@@ -10,8 +10,11 @@ export default async function handler(
 ) {
   if (req.method === "POST") {
     const errors: string[] = checkValidation(req);
+
+    // throw first error of array
     if (errors.length) return res.status(400).json({ errorMessage: errors[0] });
 
+    // check if email is existing
     const userWithEmail = await prisma.user.findFirst({
       where: { email: req.body.email },
     });
