@@ -55,8 +55,8 @@ export default async function handler(
       .setExpirationTime("24h")
       .sign(secret);
 
-    res.status(200).json({
-      user: user,
+    return res.status(200).json({
+      token: token,
     });
   }
 }
